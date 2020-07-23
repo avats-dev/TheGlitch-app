@@ -41,7 +41,7 @@ It also has a chatbot to which users can chat and ask for news, situation status
  * **Help**
  * **Home**
  * **Chat with Buddy**
- * **WHO*
+ * **WHO**
  * **MOHFW**
  * **Vaccine Tracker**
  * **Useful Links**

@@ -124,6 +124,6 @@ This page contains following links (as for now) that can assist user in this pan
 **All feedbacks and suggestions are welcome!! Everyone can contribute toward this project => fork and open a PR.**
 
 ---
-_Developed by **[Aditya-Vats]()** and **[Risabh-Negi]()**._
+_Developed by **[Aditya-Vats](https://github.com/avats-dev)** and **[Risabh-Negi](https://github.com/Rishabh-Negi)**._
 
 

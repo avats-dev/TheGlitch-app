@@ -57,8 +57,8 @@ It also has a chatbot to which users can chat and ask for news, situation status
 - It has a help button at bottom which is to be used in emergency to call and to send a sms message to a user curated list.
 
 ### Chat with Buddy
-- This chatbot is powered by [IBM Watson Assistant]().
-- It also uses a webhook to [IBM discovery]() to get new data based on user's queries.
+- This chatbot is powered by [IBM Watson Assistant](https://www.ibm.com/cloud/watson-assistant/).
+- It also uses a webhook to [IBM discovery](https://www.ibm.com/in-en/cloud/watson-discovery) to get new data based on user's queries.
 - It also supports speech to text functionality.
   > For now, it supports only english as a user language.
   

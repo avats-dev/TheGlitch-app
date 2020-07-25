@@ -98,7 +98,16 @@ This page contains following links (as for now) that can assist user in this pan
 
 ---
 ## Screenshots
-> To be updated......
+![drawer](https://github.com/avats-dev/TheGlitch-app/blob/master/gallery/drawer.png)
+![home-df](https://github.com/avats-dev/TheGlitch-app/blob/master/gallery/home-df.png)
+![home-in](https://github.com/avats-dev/TheGlitch-app/blob/master/gallery/home-in.png)
+![chatbot](https://github.com/avats-dev/TheGlitch-app/blob/master/gallery/chatbot.png)
+![countries](https://github.com/avats-dev/TheGlitch-app/blob/master/gallery/countries.png)
+![help](https://github.com/avats-dev/TheGlitch-app/blob/master/gallery/help.png)
+![mohfw](https://github.com/avats-dev/TheGlitch-app/blob/master/gallery/mohfw.png)
+![vaccine](https://github.com/avats-dev/TheGlitch-app/blob/master/gallery/vaccine.png)
+![who](https://github.com/avats-dev/TheGlitch-app/blob/master/gallery/who.png)
+![about](https://github.com/avats-dev/TheGlitch-app/blob/master/gallery/about.png)
 
 
 </br>

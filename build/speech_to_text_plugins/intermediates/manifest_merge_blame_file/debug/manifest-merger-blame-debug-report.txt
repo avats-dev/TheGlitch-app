@@ -1,0 +1,12 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.gmail.antonmolchan00.speech_to_text_plugins" >
+4
+5    <uses-sdk android:minSdkVersion="16" />
+5-->C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\speech_to_text_plugins-1.0.8\android\src\main\AndroidManifest.xml
+6
+7    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+7-->C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\speech_to_text_plugins-1.0.8\android\src\main\AndroidManifest.xml:3:5-71
+7-->C:\src\flutter\.pub-cache\hosted\pub.dartlang.org\speech_to_text_plugins-1.0.8\android\src\main\AndroidManifest.xml:3:22-68
+8
+9</manifest>

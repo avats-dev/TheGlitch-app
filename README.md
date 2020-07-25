@@ -98,6 +98,8 @@ This page contains following links (as for now) that can assist user in this pan
 
 ---
 ## Screenshots
+> **These screenshots visualize current state of app so it might change as it still is in development state.**
+
 ![drawer](https://github.com/avats-dev/TheGlitch-app/blob/master/gallery/drawer.png)
 ![home-df](https://github.com/avats-dev/TheGlitch-app/blob/master/gallery/home-df.png)
 ![home-in](https://github.com/avats-dev/TheGlitch-app/blob/master/gallery/home-in.png)

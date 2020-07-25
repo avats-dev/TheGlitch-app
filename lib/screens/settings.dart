@@ -5,7 +5,7 @@ class Setting extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text('About'),
+          title: Text('Settings'),
           backgroundColor: Colors.redAccent[400],
           centerTitle: true,
         ),

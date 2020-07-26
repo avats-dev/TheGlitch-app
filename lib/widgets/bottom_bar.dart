@@ -27,11 +27,15 @@ class BottomBar extends StatelessWidget {
             builder: (_) => AlertDialog(
               backgroundColor: Colors.redAccent[400],
               title: Text('HELP'),
-              content: Text('Call - $number'),
+              content: Text('Emergency Contact \n$number'),
               actions: <Widget>[
                 FlatButton(
-                  child: Text('Yes'),
+                  child: Icon(Icons.call),
                   onPressed: () => service.call(number),
+                ),
+                FlatButton(
+                  child: Icon(Icons.message),
+                  onPressed: () => service.sendSms(number),
                 ),
               ],
             ),

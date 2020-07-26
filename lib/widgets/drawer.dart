@@ -1,7 +1,7 @@
+import 'package:chat_bot/screens/useful_link.dart';
 import 'package:chat_bot/screens/webview.dart';
 import 'package:flutter/material.dart';
 import 'package:chat_bot/screens/about.dart';
-import 'package:chat_bot/screens/settings.dart';
 import 'package:chat_bot/screens/help.dart';
 
 class AppDrawer extends StatelessWidget {
@@ -107,17 +107,10 @@ class AppDrawer extends StatelessWidget {
               icon: Icons.stars,
               text: 'Useful Links',
               onTap: () {
-                Navigator.of(context)
-                    .push(MaterialPageRoute(builder: (context) => Setting()));
+                Navigator.of(context).push(
+                    MaterialPageRoute(builder: (context) => UsefulList()));
               }),
           Divider(),
-          _createDrawerItem(
-              icon: Icons.settings,
-              text: 'Setting',
-              onTap: () {
-                Navigator.of(context)
-                    .push(MaterialPageRoute(builder: (context) => Setting()));
-              }),
           _createDrawerItem(
             icon: Icons.info,
             text: 'About',

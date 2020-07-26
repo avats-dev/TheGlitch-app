@@ -168,7 +168,7 @@ class _ChatScreenState extends State<ChatScreen> {
                           ),
                         );
                         setState(() {
-                          if (shouldUpdate) {
+                          if (shouldUpdate && resultText!=null) {
                             chatData.addChat(resultText, true);
                             _callWatsonAssistant();
                           }

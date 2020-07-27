@@ -1,12 +1,10 @@
 import 'package:chat_bot/screens/chat_screen.dart';
-import 'package:chat_bot/services/call_service.dart';
 import 'package:flutter/material.dart';
+import 'package:url_launcher/url_launcher.dart';
 
 class BottomBar extends StatelessWidget {
   final String number;
-  final CallService service;
-
-  BottomBar({this.number, this.service});
+  BottomBar({this.number});
 
   @override
   Widget build(BuildContext context) {
@@ -31,11 +29,11 @@ class BottomBar extends StatelessWidget {
               actions: <Widget>[
                 FlatButton(
                   child: Icon(Icons.call),
-                  onPressed: () => service.call(number),
+                  onPressed: () => launch("tel:$number"),
                 ),
                 FlatButton(
                   child: Icon(Icons.message),
-                  onPressed: () => service.sendSms(number),
+                  onPressed: () => launch("sms:$number"),
                 ),
               ],
             ),

@@ -11,9 +11,52 @@ class Help extends StatelessWidget {
         ),
         body: Center(
           child: Container(
-            child: Text(
-              'Coming soon....',
-              style: TextStyle(fontSize: 25.0),
+            padding: EdgeInsets.all(20),
+            child: Column(
+              crossAxisAlignment: CrossAxisAlignment.stretch,
+              children: <Widget>[
+                GestureDetector(
+                    onTap: () {},
+                    child: Container(
+                      color: Colors.red,
+                      padding: EdgeInsets.all(20),
+                      child: Center(child: Text('Call an Ambulance')),
+                    )),
+                SizedBox(height: 20),
+                GestureDetector(
+                    onTap: () {
+                      print('taped');
+                    },
+                    child: Container(
+                      color: Colors.red,
+                      padding: EdgeInsets.all(20),
+                      child: Center(child: Text('Call 1075 TOLL-FREE')),
+                    )),
+                SizedBox(height: 40),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: <Widget>[
+                    GestureDetector(
+                        onTap: () {
+                          print('taped');
+                        },
+                        child: Container(
+                          color: Colors.red,
+                          padding: EdgeInsets.all(20),
+                          child: Center(child: Text('Call 1075 TOLL-FREE')),
+                        )),
+                    GestureDetector(
+                        onTap: () {
+                          print('taped');
+                        },
+                        child: Container(
+                          color: Colors.red,
+                          padding: EdgeInsets.all(20),
+                          child: Center(child: Text('Call 1075 TOLL-FREE')),
+                        )),
+                  ],
+                ),
+              ],
             ),
           ),
         ));

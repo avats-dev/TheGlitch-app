@@ -14,7 +14,7 @@ class MyButton extends StatelessWidget {
       child: Container(
         decoration: BoxDecoration(
           shape: BoxShape.circle,
-          color: kColor[400],
+          color: kBcolor,
         ),
         padding: EdgeInsets.all(10.0),
         margin: EdgeInsets.all(5.0),

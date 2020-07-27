@@ -1,3 +1,4 @@
+import 'package:chat_bot/constants.dart';
 import 'package:flutter/material.dart';
 import 'package:chat_bot/widgets/pie_chart.dart';
 import 'package:chat_bot/widgets/bottom_bar.dart';
@@ -16,10 +17,11 @@ class _StatusScreenState extends State<StatusScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Color(0xff121212),
       appBar: AppBar(
         title: Text('COV - Buddy'),
         centerTitle: true,
-        backgroundColor: Colors.redAccent[400],
+        backgroundColor: kBcolor,
       ),
       body: SafeArea(
         child: SingleChildScrollView(

@@ -19,7 +19,7 @@ class MyWebView extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          backgroundColor: kColor[400],
+          backgroundColor: kBcolor,
           title: Text(title),
         ),
         body: WebView(

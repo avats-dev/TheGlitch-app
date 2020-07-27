@@ -1,3 +1,4 @@
+import 'package:chat_bot/constants.dart';
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 
@@ -16,10 +17,12 @@ class About extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         title: Text('About'),
-        backgroundColor: Colors.redAccent[400],
+        backgroundColor: kBcolor,
         centerTitle: true,
+        elevation: 0,
       ),
       body: Container(
+        color: Colors.black45,
         padding: EdgeInsets.fromLTRB(15, 0, 0, 0),
         child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
@@ -30,7 +33,7 @@ class About extends StatelessWidget {
                 style: TextStyle(fontSize: 25.0),
               )),
               RaisedButton(
-                color: Colors.redAccent[400],
+                color: kBcolor,
                 child: Text('Project Source Code'),
                 onPressed: () async {
                   if (await canLaunch(url)) {

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-const kColor = Colors.redAccent;
+const kBcolor = Color(0xff2C0D43);
 //default color
 const kTextFieldDecoration = InputDecoration(
   contentPadding: EdgeInsets.symmetric(horizontal: 20.0),

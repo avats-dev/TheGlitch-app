@@ -14,7 +14,6 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData.dark().copyWith(
-        primaryColor: Color(0xff121212),
         backgroundColor: Color(0xff212121),
       ),
       initialRoute: StatusScreen.id,

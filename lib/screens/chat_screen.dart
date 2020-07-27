@@ -25,7 +25,7 @@ class _ChatScreenState extends State<ChatScreen> {
 
   var _controller = TextEditingController();
   bool change = false;
-  String message;
+  // String message;
   String resultText;
 
   WatsonAssistantV2Credential credential = WatsonAssistantV2Credential(
@@ -44,7 +44,7 @@ class _ChatScreenState extends State<ChatScreen> {
 
   void _callWatsonAssistant() async {
     watsonAssistantResponse =
-        await watsonAssistant.sendMessage(message, watsonAssistantContext);
+        await watsonAssistant.sendMessage(resultText, watsonAssistantContext);
     setState(() {
       String text = watsonAssistantResponse.resultText;
       chatData.addChat(text, false);
@@ -93,7 +93,7 @@ class _ChatScreenState extends State<ChatScreen> {
 
   void messageChange(String value) {
     setState(() {
-      message = value;
+      resultText = value;
       change = value == "" ? false : true;
     });
   }
@@ -101,8 +101,9 @@ class _ChatScreenState extends State<ChatScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Color(0xff121212),
       appBar: AppBar(
-        backgroundColor: kColor[400],
+        backgroundColor: kBcolor,
         title: Text('COV - Buddy'),
         centerTitle: true,
       ),
@@ -120,7 +121,7 @@ class _ChatScreenState extends State<ChatScreen> {
                     child: Container(
                       margin: EdgeInsets.fromLTRB(5.0, 2.0, 5.0, 2.0),
                       decoration: BoxDecoration(
-                        color: kColor[400].withOpacity(0.5),
+                        color: kBcolor.withOpacity(0.5),
                         borderRadius: BorderRadius.circular(20.0),
                       ),
                       child: TextField(
@@ -135,12 +136,13 @@ class _ChatScreenState extends State<ChatScreen> {
                   MyButton(
                     icon: change ? Icons.send : Icons.mic,
                     onPressed: () async {
+                      FocusScope.of(context).unfocus();
                       if (change) {
-                        print(message);
+                        print(resultText);
                         _controller.clear();
                         setState(() {
                           change = false;
-                          chatData.addChat(message, true);
+                          chatData.addChat(resultText, true);
                           _callWatsonAssistant();
                         });
                       } else {
@@ -148,7 +150,7 @@ class _ChatScreenState extends State<ChatScreen> {
                         bool shouldUpdate = await showDialog(
                           context: this.context,
                           child: AlertDialog(
-                            backgroundColor: kColor[400],
+                            backgroundColor: kBcolor,
                             content: Text('Tap the Mic'),
                             actions: <Widget>[
                               FlatButton(
@@ -168,7 +170,7 @@ class _ChatScreenState extends State<ChatScreen> {
                           ),
                         );
                         setState(() {
-                          if (shouldUpdate && resultText!=null) {
+                          if (shouldUpdate && resultText != null) {
                             chatData.addChat(resultText, true);
                             _callWatsonAssistant();
                           }

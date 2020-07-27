@@ -6,7 +6,6 @@ INJECTED from D:\TheGlitch-app\android\app\src\main\AndroidManifest.xml:1:1-50:1
 INJECTED from D:\TheGlitch-app\android\app\src\main\AndroidManifest.xml:1:1-50:12
 MERGED from D:\TheGlitch-app\android\app\src\main\AndroidManifest.xml:1:1-50:12
 MERGED from [:speech_recognition] D:\TheGlitch-app\build\speech_recognition\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-9:12
-MERGED from [:shared_preferences] D:\TheGlitch-app\build\shared_preferences\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [:url_launcher] D:\TheGlitch-app\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-14:12
 MERGED from [:webview_flutter] D:\TheGlitch-app\build\webview_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.fragment:fragment:1.1.0] C:\Users\Negi\.gradle\caches\transforms-2\files-2.1\0986d0d74b8a2c7da8161f6370fc7744\fragment-1.1.0\AndroidManifest.xml:17:1-24:12
@@ -114,8 +113,6 @@ INJECTED from D:\TheGlitch-app\android\app\src\main\AndroidManifest.xml
 INJECTED from D:\TheGlitch-app\android\app\src\main\AndroidManifest.xml
 MERGED from [:speech_recognition] D:\TheGlitch-app\build\speech_recognition\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-44
 MERGED from [:speech_recognition] D:\TheGlitch-app\build\speech_recognition\intermediates\library_manifest\debug\AndroidManifest.xml:7:5-44
-MERGED from [:shared_preferences] D:\TheGlitch-app\build\shared_preferences\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
-MERGED from [:shared_preferences] D:\TheGlitch-app\build\shared_preferences\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:url_launcher] D:\TheGlitch-app\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:url_launcher] D:\TheGlitch-app\build\url_launcher\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44
 MERGED from [:webview_flutter] D:\TheGlitch-app\build\webview_flutter\intermediates\library_manifest\debug\AndroidManifest.xml:5:5-44

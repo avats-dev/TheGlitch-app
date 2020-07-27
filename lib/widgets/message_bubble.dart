@@ -17,7 +17,7 @@ class MessageBubble extends StatelessWidget {
         children: <Widget>[
           Material(
             elevation: 5.0,
-            color: isMe ? Colors.redAccent[400] : Colors.pink,
+            color: isMe ? Colors.purple[900]:kBcolor,
             borderRadius:
                 isMe ? kMyMessageBubbleStyle : kOtherMessageBubbleStyle,
             child: Padding(

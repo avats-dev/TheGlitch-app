@@ -1,14 +1,17 @@
 import 'package:chat_bot/screens/webview.dart';
 import 'package:flutter/material.dart';
 
+import '../constants.dart';
+
 class UsefulList extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      backgroundColor: Colors.black54,
       appBar: AppBar(
         title: Text('Useful Links'),
         centerTitle: true,
-        backgroundColor: Colors.redAccent[400],
+        backgroundColor: kBcolor,
       ),
       body: Container(
         child: ListView(
@@ -18,7 +21,6 @@ class UsefulList extends StatelessWidget {
               child: Text(
                 'ORGANISATIONS',
                 style: TextStyle(
-                    fontFamily: "Font1",
                     fontSize: 20,
                     fontWeight: FontWeight.bold),
               ),
@@ -116,7 +118,6 @@ class UsefulList extends StatelessWidget {
               child: Text(
                 'FAQs, Myths and Facts',
                 style: TextStyle(
-                    fontFamily: "Font1",
                     fontSize: 20,
                     fontWeight: FontWeight.bold),
               ),
@@ -198,7 +199,6 @@ class UsefulList extends StatelessWidget {
               child: Text(
                 'Dashboards and Statistics',
                 style: TextStyle(
-                    fontFamily: "Font1",
                     fontSize: 20,
                     fontWeight: FontWeight.bold),
               ),
@@ -279,7 +279,6 @@ class UsefulList extends StatelessWidget {
               child: Text(
                 'COVID News',
                 style: TextStyle(
-                    fontFamily: "Font1",
                     fontSize: 20,
                     fontWeight: FontWeight.bold),
               ),

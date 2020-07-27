@@ -2,6 +2,8 @@ import 'package:chat_bot/screens/chat_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 
+import '../constants.dart';
+
 class BottomBar extends StatelessWidget {
   final String number;
   BottomBar({this.number});
@@ -15,7 +17,7 @@ class BottomBar extends StatelessWidget {
         BottomNavigationBarItem(
             icon: Icon(Icons.group), title: Text('CHATBOT')),
       ],
-      backgroundColor: Colors.redAccent[400],
+      backgroundColor: kBcolor,
       unselectedItemColor: Colors.white,
       selectedItemColor: Colors.white,
       onTap: (index) {
@@ -23,7 +25,7 @@ class BottomBar extends StatelessWidget {
           showDialog(
             context: context,
             builder: (_) => AlertDialog(
-              backgroundColor: Colors.redAccent[400],
+              backgroundColor: Colors.redAccent[700],
               title: Text('HELP'),
               content: Text('Emergency Contact \n$number'),
               actions: <Widget>[

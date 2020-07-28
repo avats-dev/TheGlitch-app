@@ -1,4 +1,7 @@
 # COV-Buddy App
+
+![Flutter CI](https://github.com/avats-dev/TheGlitch-app/workflows/Flutter%20CI/badge.svg)
+
 ### **Deployed [here]()**
 > It is not deployed yet and there is no release version yet.
 
@@ -10,7 +13,6 @@
 ![banner](https://github.com/avats-dev/COV-Buddy/blob/master/banner.png)
 
 ---
-
 
 #### This is a mobile application to help out people in COVID19 pandemic. This app is intended to be the home of any thing a user needs regarding COVID.
 #### As for now, this app supports only english language and is intended for use in INDIA. 

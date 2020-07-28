@@ -1,5 +1,10 @@
 # COV-Buddy App
-**Deployed [here]()**
+### **Deployed [here]()**
+> It is not deployed yet and there is no release version yet.
+
+### **For working demo and features of app, you can watch this [video](https://drive.google.com/file/d/1m_XJcMxxB9k9HDfbgZN8t5HpOxpOxcZj/view?usp=sharing).** 
+> Mind that it's still in development.
+
 ---
 
 ![banner](https://github.com/avats-dev/COV-Buddy/blob/master/banner.png)
@@ -25,7 +30,7 @@
 
 ---
 ## How to run locally (development purposes)
-> To be updated....
+> [Go here](https://flutter.dev/docs)
 
 ---
 ## About App
@@ -73,20 +78,30 @@ It also has a chatbot to which users can chat and ask for news, situation status
 
 ### Useful Links
 This page contains following links (as for now) that can assist user in this pandemic.
+
+#### Organisations
+- [WHO](https://www.who.int/emergencies/diseases/novel-coronavirus-2019)
 - [mygov](https://www.mygov.in/covid-19/)
-- [covid-myth-buster](https://transformingindia.mygov.in/covid-19/?sector=myth-busters&type=en#scrolltothis)
-- [covid-fact-check](https://transformingindia.mygov.in/covid-19/?sector=fact-check&type=en#scrolltothis)
-- [worldofmeters](https://www.worldometers.info/coronavirus/)
-- [jhu-map](https://coronavirus.jhu.edu/map.html)
 - [cdc](https://www.cdc.gov/coronavirus/2019-ncov/index.html)
 - [unicef](https://www.unicef.org/coronavirus/covid-19)
+- [MOHFW](https://www.mohfw.gov.in/)
+
+#### FAQs, Myths and Facts
+- [covid-myth-buster](https://transformingindia.mygov.in/covid-19/?sector=myth-busters&type=en#scrolltothis)
+- [covid-fact-check](https://transformingindia.mygov.in/covid-19/?sector=fact-check&type=en#scrolltothis)
+- [covid-FAQ](https://www.cdc.gov/coronavirus/2019-ncov/daily-life-coping/share-facts.html)
+- [covid-Q&A](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/question-and-answers-hub)
+
+#### Dashboards and Statistics
+- [worldofmeters](https://www.worldometers.info/coronavirus/)
+- [jhu-map](https://coronavirus.jhu.edu/map.html)
 - [covidindia](https://covidindia.org/)
 - [covid19india](https://www.covid19india.org/)
+
+#### COVID News
 - [covid-news](https://www.msdmanuals.com/home/resourcespages/select-covid-19-news)
 - [the-hindu-covid](https://www.thehindu.com/topic/coronavirus/)
 - [bbc-covid-news](https://www.bbc.com/news/coronavirus)
-- [covid-FAQ](https://www.cdc.gov/coronavirus/2019-ncov/daily-life-coping/share-facts.html)
-- [covid-Q&A](https://www.who.int/emergencies/diseases/novel-coronavirus-2019/question-and-answers-hub)
 
 ### Settings
 - This page allows user to change and update parameters needed by the app to function.

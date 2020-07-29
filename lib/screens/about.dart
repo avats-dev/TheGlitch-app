@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
 
 String text =
-    "This app is developed for aiding peopele in the Covid19 pandemic";
+    "This app is developed for aiding people in the Covid19 pandemic";
 String text1 =
     " and is an open source project. It has many features and many are yet to come";
 String text2 =

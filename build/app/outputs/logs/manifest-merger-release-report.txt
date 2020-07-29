@@ -4,7 +4,6 @@ ADDED from D:\TheGlitch-app\android\app\src\main\AndroidManifest.xml:1:1-50:12
 INJECTED from D:\TheGlitch-app\android\app\src\main\AndroidManifest.xml:1:1-50:12
 INJECTED from D:\TheGlitch-app\android\app\src\main\AndroidManifest.xml:1:1-50:12
 INJECTED from D:\TheGlitch-app\android\app\src\main\AndroidManifest.xml:1:1-50:12
-MERGED from [:speech_recognition] D:\TheGlitch-app\build\speech_recognition\intermediates\library_manifest\release\AndroidManifest.xml:2:1-9:12
 MERGED from [:url_launcher] D:\TheGlitch-app\build\url_launcher\intermediates\library_manifest\release\AndroidManifest.xml:2:1-14:12
 MERGED from [:webview_flutter] D:\TheGlitch-app\build\webview_flutter\intermediates\library_manifest\release\AndroidManifest.xml:2:1-7:12
 MERGED from [androidx.webkit:webkit:1.0.0] C:\Users\Negi\.gradle\caches\transforms-2\files-2.1\e6b1c804849fbf3a96135de6255bcce0\webkit-1.0.0\AndroidManifest.xml:17:1-22:12
@@ -108,8 +107,6 @@ uses-sdk
 INJECTED from D:\TheGlitch-app\android\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from D:\TheGlitch-app\android\app\src\main\AndroidManifest.xml
 INJECTED from D:\TheGlitch-app\android\app\src\main\AndroidManifest.xml
-MERGED from [:speech_recognition] D:\TheGlitch-app\build\speech_recognition\intermediates\library_manifest\release\AndroidManifest.xml:7:5-44
-MERGED from [:speech_recognition] D:\TheGlitch-app\build\speech_recognition\intermediates\library_manifest\release\AndroidManifest.xml:7:5-44
 MERGED from [:url_launcher] D:\TheGlitch-app\build\url_launcher\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
 MERGED from [:url_launcher] D:\TheGlitch-app\build\url_launcher\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44
 MERGED from [:webview_flutter] D:\TheGlitch-app\build\webview_flutter\intermediates\library_manifest\release\AndroidManifest.xml:5:5-44

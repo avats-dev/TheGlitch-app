@@ -6,7 +6,7 @@
 
 ## Version: 0.1-beta
 ### **You can download the [apk file](https://github.com/avats-dev/TheGlitch-app/releases/download/v0.1-beta/release-apk.zip)**
-### **You can download the source as [zip](https://github.com/avats-dev/TheGlitch-app/archive/v0.1-beta.zip) or as [tar.gz](https://github.com/avats-dev/TheGlitch-app/archive/v0.1-beta.tar.gz)
+### **You can download the source as [zip](https://github.com/avats-dev/TheGlitch-app/archive/v0.1-beta.zip) or as [tar.gz](https://github.com/avats-dev/TheGlitch-app/archive/v0.1-beta.tar.gz)**
 > It is still in deveopment state, so use at your own discretion.
 
 ### **For working demo and features of app, you can watch this [video](https://drive.google.com/file/d/1m_XJcMxxB9k9HDfbgZN8t5HpOxpOxcZj/view?usp=sharing).** 

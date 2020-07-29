@@ -1,8 +1,0 @@
-# Referenced at D:\TheGlitch-app\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:20
--keep class androidx.core.app.CoreComponentFactory { <init>(); }
-# Referenced at D:\TheGlitch-app\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:25
--keep class com.example.chat_bot.MainActivity { <init>(); }
-# Referenced at D:\TheGlitch-app\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:20
--keep class io.flutter.app.FlutterApplication { <init>(); }
-# Referenced at D:\TheGlitch-app\build\app\intermediates\merged_manifests\release\AndroidManifest.xml:67
--keep class io.flutter.plugins.urllauncher.WebViewActivity { <init>(); }

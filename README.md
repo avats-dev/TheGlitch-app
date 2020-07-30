@@ -1,6 +1,7 @@
 # COV-Buddy App
 
 ![Flutter CI](https://github.com/avats-dev/TheGlitch-app/workflows/Flutter%20CI/badge.svg)
+[![codecov](https://codecov.io/gh/avats-dev/TheGlitch-app/branch/master/graph/badge.svg)](https://codecov.io/gh/avats-dev/TheGlitch-app)
 
 ---
 

@@ -8,6 +8,9 @@ on:
     - master
     
 # on: push    # Default will running for every branch.
+
+env:
+  CODECOV_TOKEN: "84476f43-1141-47aa-9e98-666861ff375b"
     
 jobs:
   build:

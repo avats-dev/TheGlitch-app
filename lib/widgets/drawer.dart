@@ -10,33 +10,16 @@ class AppDrawer extends StatelessWidget {
         margin: EdgeInsets.zero,
         padding: EdgeInsets.zero,
         decoration: BoxDecoration(
-         
           color: kBcolor,
         ),
         child: Stack(children: <Widget>[
           Positioned(
-              bottom: 50.0,
+              bottom: 20.0,
               left: 16.0,
               child: Text("COV-Buddy",
                   style: TextStyle(
                       color: Colors.white,
                       fontSize: 30.0,
-                      fontWeight: FontWeight.w500))),
-          Positioned(
-              bottom: 25.0,
-              left: 16.0,
-              child: Text("A friend for aiding you in this pandemic",
-                  style: TextStyle(
-                      color: Colors.white,
-                      fontSize: 15.0,
-                      fontWeight: FontWeight.w500))),
-          Positioned(
-              bottom: 10.0,
-              left: 16.0,
-              child: Text("An open Source Project",
-                  style: TextStyle(
-                      color: Colors.white,
-                      fontSize: 13.0,
                       fontWeight: FontWeight.w500))),
         ]));
   }

@@ -23,7 +23,8 @@ class _StatusScreenState extends State<StatusScreen> {
         centerTitle: true,
         backgroundColor: kBcolor,
       ),
-      body: SafeArea(
+      body: Container(
+          margin: EdgeInsets.fromLTRB(0, 10, 0, 0),
         child: SingleChildScrollView(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,

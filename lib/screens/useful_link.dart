@@ -20,9 +20,7 @@ class UsefulList extends StatelessWidget {
               padding: EdgeInsets.all(20),
               child: Text(
                 'ORGANISATIONS',
-                style: TextStyle(
-                    fontSize: 20,
-                    fontWeight: FontWeight.bold),
+                style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
               ),
             ),
             ListTile(
@@ -117,9 +115,7 @@ class UsefulList extends StatelessWidget {
               padding: EdgeInsets.all(20),
               child: Text(
                 'FAQs, Myths and Facts',
-                style: TextStyle(
-                    fontSize: 20,
-                    fontWeight: FontWeight.bold),
+                style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
               ),
             ),
             ListTile(
@@ -198,9 +194,7 @@ class UsefulList extends StatelessWidget {
               padding: EdgeInsets.all(20),
               child: Text(
                 'Dashboards and Statistics',
-                style: TextStyle(
-                    fontSize: 20,
-                    fontWeight: FontWeight.bold),
+                style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
               ),
             ),
             ListTile(
@@ -278,9 +272,7 @@ class UsefulList extends StatelessWidget {
               padding: EdgeInsets.all(20),
               child: Text(
                 'COVID News',
-                style: TextStyle(
-                    fontSize: 20,
-                    fontWeight: FontWeight.bold),
+                style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
               ),
             ),
             ListTile(

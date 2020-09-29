@@ -12,7 +12,7 @@ class StatusScreen extends StatefulWidget {
 }
 
 class _StatusScreenState extends State<StatusScreen> {
- final String number = "1075";
+  final String number = "1075";
 
   @override
   Widget build(BuildContext context) {
@@ -24,7 +24,7 @@ class _StatusScreenState extends State<StatusScreen> {
         backgroundColor: kBcolor,
       ),
       body: Container(
-          margin: EdgeInsets.fromLTRB(0, 10, 0, 0),
+        margin: EdgeInsets.fromLTRB(0, 10, 0, 0),
         child: SingleChildScrollView(
           child: Column(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
